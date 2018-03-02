@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1"
+	configfailurepolicy="continue">
+	<test name="BookingFlow">
+		<classes>
+			<class name="com.wyn.automaton.workflows.BookingWorkflow" />
+		</classes>
+	</test> 
+<!-- 	<test name="MyReservationScenario"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wr.automation.rewards.MyReservationScenario" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+<!-- 	<test name="LongEnrollementScenario"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wr.automation.rewards.LongEnrollmentScenario" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	
+	<test name="RetrieveReservation">
+		<classes>
+			<class name="com.wyn.automaton.workflows.RetrieveReservation" />
+		</classes>
+	</test>
+	
+<!-- 		<test name="WrLoginAndLogout"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wyn.automaton.workflows.WrLoginAndLogout" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	
+<!-- 		<test name="SpecialRatesbooking"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wyn.automaton.workflows.SpecialRatesbooking" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+</suite> 

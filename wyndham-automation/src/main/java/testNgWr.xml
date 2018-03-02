@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1"
+	configfailurepolicy="continue">
+	<test name="LoginLogoutScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.LoginLogoutScenario" />
+		</classes>
+	</test> 
+	<test name="LightEnrollmentScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.LightEnrollmentScenario" />
+		</classes>
+	</test> 
+	<test name="LongEnrollementScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.LongEnrollmentScenario" />
+		</classes>
+	</test> 
+	<test name="ForgetPasswordScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.ForgetPasswordScenario" />
+		</classes>
+	</test> 
+    <test name="FirstTimeSignInScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.FirstTimeSignInScenario" />
+		</classes>
+	</test> 
+	 <test name="ContactusWithLogin">
+		<classes>
+			<class name="com.wr.automation.rewards.ContactusWithLogin" />
+		</classes>
+	</test> 
+	<test name="MyAccountScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.MyAccountScenario" />
+		</classes>
+	</test>
+	<test name="MyProfileScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.MyProfileScenario" />
+		</classes>
+	</test>
+	<test name="MyReservationScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.MyReservationScenario" />
+		</classes>
+	</test>
+	<test name="ValidateRedeem">
+		<classes>
+			<class name="com.wr.automation.rewards.ValidateRedeem" />
+		</classes>
+	</test>
+	<test name="VerifyMyReservation">
+		<classes>
+			<class name="com.wr.automation.rewards.VerifyMyReservation" />
+		</classes>
+	</test>
+	<test name="VerifyQuickLinksScenario">
+		<classes>
+			<class name="com.wr.automation.rewards.VerifyQuickLinksScenario" />
+		</classes>
+	</test>
+		<test name="WrHomePageBooking">
+		<classes>
+			<class name="com.wr.automation.rewards.WrHomePageBooking" />
+		</classes>
+	</test>
+	
+		<test name="HowItWork">
+		<classes>
+			<class name="com.wr.automation.rewards.HowItWork" />
+		</classes>
+	</test>
+
+		<test name="MemberLevels">
+		<classes>
+			<class name="com.wr.automation.rewards.MemberLevels" />
+		</classes>
+	</test>
+	
+		<test name="SiteMap">
+		<classes>
+			<class name="com.wr.automation.rewards.SiteMap" />
+		</classes>
+	</test>
+		<test name="BookingFlow">
+		<classes>
+			<class name="com.wyn.automaton.workflows.BookingWorkflow" />
+		</classes>
+	</test> 
+		<test name="RetrieveReservation">
+		<classes>
+			<class name="com.wyn.automaton.workflows.RetrieveReservation" />
+		</classes>
+	</test>
+		<test name="ContactUsForm">
+		<classes>
+			<class name="com.wyn.automaton.workflows.ContactUsForm" />
+		</classes>
+	</test>
+	
+	
+	
+	
+	
+<!-- 	<test name="ErrorValidationGlobalBookingBar"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wyn.automaton.workflows.ErrorValidationGlobalBookingBar" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+<!-- 	<test name="WrLoginAndLogout"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wyn.automaton.workflows.WrLoginAndLogout" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+</suite> 

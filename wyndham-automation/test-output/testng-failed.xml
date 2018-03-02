@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.wyn.automaton.workflows.BookingWorkflow">
+        <methods>
+          <include name="bookingFlowTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="endReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.wyn.automaton.workflows.BookingWorkflow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
